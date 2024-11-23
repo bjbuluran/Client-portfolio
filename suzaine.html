@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolyn Suzaine Marling - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Carolyn Suzaine Marling</h1>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" data-section="home">Home</a>
+                <a href="#" class="nav-link" data-section="about">About</a>
+                <a href="#" class="nav-link" data-section="experience">Experience</a>
+                <a href="#" class="nav-link" data-section="education">Education</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <div class="profile-container">
+                <img src="zainepfp.png" alt="Profile" class="profile-image floating">
+            </div>
+
+            <!-- Content Sections -->
+            <div class="content-container">
+                <!-- Home Section -->
+                <section id="home" class="section active">
+                    <h2>Business Graduate in Financial Management</h2>
+                    <p class="description">A self-motivated and trustworthy individual with extensive knowledge through academic coursework and years of work experience.</p>
+                    <div class="contact-info">
+                        <p>📧 Suzainemarling@gmail.com</p>
+                        <p>📱 +971-56-962-8493</p>
+                        <p>📍 Ansar Building, Block A, Flat 1204, Al Nahda, Sharjah</p>
+                        <p>💼 <a href="https://www.linkedin.com/in/carolyn-suzaine-marling" class="linkedin">LinkedIn Profile</a></p>
+                    <!---form nyenye-->
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form> 
+                    </div>
+                </section>
+
+                <!-- About Section -->
+                <section id="about" class="section">
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <div class="card">➤ Data Entry</div>
+                        <div class="card">➤ Basic Photo Editing</div>
+                        <div class="card">➤ Google spreadsheets</div>
+                        <div class="card">➤ Excellent English communication skills</div>
+                        <div class="card">➤ Proficient in Microsoft Office</div>
+                        <div class="card">➤ VLOOKUP</div>
+                        <div class="card">➤ PIVOT</div>
+                        <div class="card">➤ Customer Service Management</div>
+                        <div class="card">➤ Multi-tasking</div>
+                        <div class="card">➤ Time Management</div>
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section id="experience" class="section">
+                    <h3>Work Experience</h3>
+                    <div class="experience-grid">
+                        <div class="card">
+                            <h4>Bancassurance Sales Executive</h4>
+                            <p class="company">BPI-AIA Life Assurance Corporation | 2023-Present</p>
+                            <p>Cross-sell and upsell BPI-Philam products to BPI customers. Establish, maintain and grow good relations with bank partners in the branch, and prospective and existing clients of BPI.</p>
+                        </div>
+                        <div class="card">
+                            <h4>Customer Service Agent</h4>
+                            <p class="company">NAQEL EXPRESS LLC ; LOGISTICS | 2021-2023</p>
+                            <p>Resolve Client issues with empathy and a problem-solving mindset. Answering customer inquiries with prompt and accurate responses to customers' questions, complaints or requests.</p>
+                        </div>
+                        <div class="card">
+                            <h4>VIP Casino Host</h4>
+                            <p class="company">Solaire Hotel Resort and Casino | 2015-2018</p>
+                            <p>Makes VIP Clients feel welcomed and comfortable leading to the client taking more interest in the organization. Responsible for improving customer service and maintaining relationships with Casino Players.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education Section -->
+                <section id="education" class="section">
+                    <h3>Education</h3>
+                    <div class="card">
+                        <h4>La Consolacion University Philippines</h4>
+                        <p>Business Administration in Financial Management | 2018-2021</p>
+                    </div>
+                    
+                    <h3>Certifications & Training</h3>
+                    <div class="certifications-grid">
+                        <div class="card">Enhancing Workplace Professionalism Seminar</div>
+                        <div class="card">Contact Center: Production Environment</div>
+                        <div class="card">Performance Management: Finding the Best Approach</div>
+                        <div class="card">Developing a Positive Workplace: Taming Toxic Behaviors</div>
+                        <div class="card">Bancassurance Sales Executive Training Program</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
